@@ -13,7 +13,7 @@ export default function Banner() {
             <div className="flex flex-col gap-6">
                 <h1 className="font-bold font-inter text-4xl">
                     Build Your Ideal <br />
-                    <span className="bg-linear-to-r from-[#ff2a00] to-purple-700 bg-clip-text text-transparent">
+                    <span className="bg-linear-to-r from-[#fa4f2d] to-purple-700 bg-clip-text text-transparent">
                         Development Stack
                     </span>
                 </h1>
@@ -25,7 +25,7 @@ export default function Banner() {
                 </p>
 
                 <div className="flex gap-4">
-                    <button className="bg-linear-to-r from-[#f66936] to-[#ed4c92] text-white px-6 py-3 rounded-xl">
+                    <button className="bg-linear-to-r from-[#f76f21] to-[#ed4a94] text-white px-6 py-3 rounded-xl">
                         Explore Technologies
                     </button>
 
