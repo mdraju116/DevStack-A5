@@ -6,7 +6,7 @@ A modern and responsive developer technology stack application built with React 
 
 👉 [DevStack Live Demo](https://devstack-cyan.vercel.app/)
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 * React
 * TypeScript
@@ -53,7 +53,10 @@ DevStack/
 
 ## 👨‍💻 Author
 **Md. Raju Ahammed**
+
 GitHub: https://github.com/mdraju116
+
+
 
 
 
@@ -66,9 +69,7 @@ GitHub: https://github.com/mdraju116
 
 React uses JSX because it makes the UI easier to write and understand.
 
-```jsx
-const title = <h1>Welcome to DevStack</h1>;
-```
+
 
 ---
 
@@ -76,18 +77,16 @@ const title = <h1>Welcome to DevStack</h1>;
 
 **Props** are data passed from a parent component to a child component. They are read-only.
 
-**State** is data managed inside a component that can change over time.
+**State** is data that a component manages, and it can change when the user interacts with the application.
 
-Simply:
 
-* **Props** → Data received from another component
-* **State** → Data managed by the component itself
 
 ---
 
 ## 3. What does the `useState` hook do, and where did you use it in this project?
 
-`useState` is a React Hook used to create and manage changing data inside a component.
+`useState` is a React Hook that creates and manages changing data inside a component.
+It lets a React component remember a value and update the screen when that value changes.
 
 For example:
 
@@ -104,6 +103,7 @@ When the state changes, React updates the UI automatically.
 ## 4. What does the `useEffect` hook do, and why did you need it to load the JSON data?
 
 `useEffect` is used to perform side effects in a React component.
+It performs actions after a component loads or when certain data changes.
 
 I used it to load data from the JSON file when the component starts.
 
@@ -197,8 +197,4 @@ Here, the parent passes a function to the child, and the child calls that functi
 
 ---
 
-## 👨‍💻 Developer
 
-Built with ❤️ using React and modern web technologies.
-
-**DevStack — Tools and resources for modern developers.**
