@@ -26,7 +26,6 @@ export default function Footer() {
                 </div>
 
 
-
                 {/* right side */}
                 <div className="flex gap-35">
 

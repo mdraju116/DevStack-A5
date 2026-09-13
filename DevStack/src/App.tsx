@@ -3,7 +3,7 @@ import './App.css'
 import Banner from './components/Banner'
 import Footer from './components/Footer'
 import Nav from './components/Nav'
-import Technologies from './technologies/Technologies'
+import Technologies  from './components/Technologies'
 
 function App() {
  
@@ -15,6 +15,7 @@ function App() {
      <Banner/>
      <Technologies/>
      <Footer/>
+     
      
     </>
   )
