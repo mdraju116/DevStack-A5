@@ -1,42 +1,62 @@
 # 🚀 DevStack
 
-**DevStack** is a developer-focused web application that provides a curated collection of useful technologies, tools, and resources for developers. It helps users explore different technologies and discover useful resources for building modern software.
+A modern and responsive developer technology stack application built with React and TypeScript. DevStack allows users to explore different technologies, view technology details, and build their own personalized stack.
 
-## ✨ Features
+## 🚀 Live Demo
 
-* 🔍 **Explore Technologies** — Browse and discover different technologies and development tools.
-* 📚 **Curated Resources** — Find useful developer resources and information in one place.
-* 📱 **Responsive Design** — Fully responsive interface that works smoothly on desktop, tablet, and mobile devices.
+👉 [DevStack Live Demo](https://devstack-cyan.vercel.app/)
 
-## 🛠️ Technologies Used
+## 🛠️ Technology Stack
 
-* **React.js**
-* **JavaScript**
-* **Tailwind CSS**
-* **HTML5**
-* **CSS3**
-* **Vite**
-* **JSON**
-* **React Hooks** — `useState`, `useEffect`
-* **React Router**
+* React
+* TypeScript
+* Tailwind CSS
+* Vite
+* React Hooks
+* JSON
+* Responsive Design
+* HTML5
+* CSS3
+
+## ✨ Key Features
+
+* 🔍 **Explore Technologies** — Browse different technologies and view their information.
+* ➕ **Build Your Stack** — Add technologies to your personal stack and manage your selected technologies.
+* 📱 **Responsive Design** — Fully responsive layout that works across desktop, tablet, and mobile devices.
 
 ## 📂 Project Structure
 
 ```text
 DevStack/
+│
 ├── public/
+│   └── data.json
+│
 ├── src/
-│   ├── assets/
 │   ├── components/
-│   ├── pages/
-│   ├── App.jsx
-│   └── main.jsx
+│   │   ├── Nav.tsx
+│   │   ├── Banner.tsx
+│   │   ├── Technologies.tsx
+│   │   ├── TechnologyCard.tsx
+│   │   ├── YourStack.tsx
+│   │   └── Footer.tsx
+│   │
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+│
 ├── package.json
-├── vite.config.js
+├── tsconfig.json
+├── vite.config.ts
 └── README.md
 ```
 
----
+## 👨‍💻 Author
+**Md. Raju Ahammed**
+GitHub: https://github.com/mdraju116
+
+
+
 
 # ⚛️ React Questions & Answers
 
