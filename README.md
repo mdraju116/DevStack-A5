@@ -1,8 +1,8 @@
-# 🚀 DevStack
+#  DevStack
 
 A modern and responsive developer technology stack application built with React and TypeScript. DevStack allows users to explore different technologies, view technology details, and build their own personalized stack.
 
-## 🚀 Live Demo
+##  Live Demo
 
 👉 [DevStack Live Demo](https://devstack-cyan.vercel.app/)
 
@@ -18,11 +18,11 @@ A modern and responsive developer technology stack application built with React 
 * HTML5
 * CSS3
 
-## ✨ Key Features
+##  Key Features
 
-* 🔍 **Explore Technologies** — Browse different technologies and view their information.
-* ➕ **Build Your Stack** — Add technologies to your personal stack and manage your selected technologies.
-* 📱 **Responsive Design** — Fully responsive layout that works across desktop, tablet, and mobile devices.
+*  **Explore Technologies** — Browse different technologies and view their information.
+*  **Build Your Stack** — Add technologies to your personal stack and manage your selected technologies.
+*  **Responsive Design** — Fully responsive layout that works across desktop, tablet, and mobile devices.
 
 ## 📂 Project Structure
 
