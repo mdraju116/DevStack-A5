@@ -69,7 +69,7 @@ React uses JSX because it makes the UI easier to write and understand.
 
 
 
----
+
 
 ## 2. What is the difference between props and state?
 
@@ -79,7 +79,7 @@ React uses JSX because it makes the UI easier to write and understand.
 
 
 
----
+
 
 ## 3. What does the `useState` hook do, and where did you use it in this project?
 
@@ -96,7 +96,7 @@ In **DevStack**, I used `useState` to manage changing UI data such as search/fil
 
 When the state changes, React updates the UI automatically.
 
----
+
 
 ## 4. What does the `useEffect` hook do, and why did you need it to load the JSON data?
 
@@ -117,7 +117,7 @@ useEffect(() => {
 
 The empty `[]` means the effect runs when the component is loaded.
 
----
+
 
 ## 5. Why does every item in a `.map()` list need a unique `key` prop?
 
@@ -137,7 +137,7 @@ Example:
 
 The `key` should be unique for each item.
 
----
+
 
 ## 6. What is conditional rendering? Show one place you used it.
 
@@ -155,7 +155,7 @@ For example, in DevStack, when there are no items in the stack, I can show an em
 
 If the stack is empty, the message is shown. Otherwise, the stack items are displayed.
 
----
+
 
 ## 7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
 
