@@ -4,7 +4,7 @@ A modern and responsive developer technology stack application built with React 
 
 ##  Live Demo
 
-👉 [DevStack Live Demo](https://devstack-cyan.vercel.app/)
+👉 [DevStack Live Demo](https://devstack-gamma-virid.vercel.app/)
 
 ## Technology Stack
 
