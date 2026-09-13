@@ -12,9 +12,7 @@ A modern and responsive developer technology stack application built with React 
 * TypeScript
 * Tailwind CSS
 * Vite
-* React Hooks
 * JSON
-* Responsive Design
 * HTML5
 * CSS3
 
