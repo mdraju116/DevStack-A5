@@ -7,6 +7,6 @@ import App from './App.tsx'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <App />
-    <ToastContainer autoClose={2000}/>
+    <ToastContainer autoClose={2000}  position="bottom-right"/>
   </StrictMode>,
 )

@@ -8,8 +8,9 @@ export default function Footer() {
 
       <div className="container mx-auto px-6 md:px-10 lg:px-16 py-10">
         <div className="flex flex-col lg:flex-row justify-between gap-10">
+          
           {/* Left side */}
-          <div className="space-y-4">
+          <div className="space-y-4 flex flex-col items-center text-center lg:items-start lg:text-left">
             <img
               src={footerLogo}
               alt="Dev Stack"
@@ -28,8 +29,8 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Right side */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-10 sm:gap-16 lg:gap-24">
+          {/* Right side - hidden on mobile */}
+          <div className="hidden lg:grid grid-cols-3 gap-10 sm:gap-16 lg:gap-24">
             <div className="space-y-3">
               <h2 className="text-[#0f172a] font-bold">PRODUCT</h2>
 
@@ -63,9 +64,9 @@ export default function Footer() {
       </div>
 
       {/* Copyright */}
-      <hr className="border-[#f1f5f9]" />
+      <hr className="border-[#f1f5f9] mx-24" />
 
-      <div className="container mx-auto px-6 md:px-10 lg:px-16 py-6 flex flex-col sm:flex-row justify-between gap-4 text-[#94a3b8]">
+      <div className="container mx-auto px-6 md:px-10 lg:px-16 py-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-[#94a3b8] text-center">
         <p>© 2026 Dev Stack. All rights reserved.</p>
 
         <div className="flex gap-6">
@@ -76,4 +77,3 @@ export default function Footer() {
     </footer>
   );
 }
-

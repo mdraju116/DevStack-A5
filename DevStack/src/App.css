@@ -5,8 +5,8 @@
 
 .brand-gradient-text {
   background: var(--brand-gradient);
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 
