@@ -1,45 +1,52 @@
+
 import heroIcon from "../assets/banner-stack.png"
 
-export interface BannerProps {
-    prop: string
-}
-
 export default function Banner() {
-
     return (
-        <div className="flex container mx-auto mt-12 px-6 md:px-10 lg:px-16 py-4 items-center justify-between">
+        <section className="container mx-auto px-4 sm:px-6 lg:px-10 xl:px-16 mt-8 md:mt-12">
 
-            {/* left side */}
-            <div className="flex flex-col gap-6">
-                <h1 className="font-bold font-inter text-4xl">
-                    Build Your Ideal <br />
-                    <span className="bg-linear-to-r from-[#fa4f2d] to-purple-700 bg-clip-text text-transparent">
-                        Development Stack
-                    </span>
-                </h1>
+            <div className="flex flex-col md:flex-row items-center justify-between gap-10 md:gap-8 py-6 md:py-10">
 
-                <p className="text-[#475569] font-400">
-                    Explore frontend, backend, database, and tooling options,<br />
-                    compare them side by side, and put together the stack that fits your <br />
-                    next project.
-                </p>
+                {/* Left Side */}
+                <div className="w-full md:w-1/2 flex flex-col gap-5 md:gap-6 text-center md:text-left">
 
-                <div className="flex gap-4">
-                    <button className="bg-linear-to-r from-[#f76f21] to-[#ed4a94] text-white px-6 py-3 rounded-xl">
-                        Explore Technologies
-                    </button>
+                    <h1 className="font-bold font-inter text-3xl sm:text-4xl lg:text-5xl leading-tight">
+                        Build Your Ideal{" "}
+                        <span className="block bg-linear-to-r from-[#fa4f2d] to-purple-700 bg-clip-text text-transparent">
+                            Development Stack
+                        </span>
+                    </h1>
 
-                    <button className="bg-white text-black border border-gray-200 px-10 py-3 rounded-xl">
-                        Learn More
-                    </button>
+                    <p className="text-[#475569] leading-7 max-w-xl mx-auto md:mx-0">
+                        Explore frontend, backend, database, and tooling options,
+                        compare them side by side, and put together the stack that
+                        fits your next project.
+                    </p>
+
+                    <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center md:justify-start">
+
+                        <button className="bg-linear-to-r from-[#f76f21] to-[#ed4a94] text-white px-6 py-3 rounded-xl">
+                            Explore Technologies
+                        </button>
+
+                        <button className="bg-white text-black border border-gray-200 px-8 sm:px-10 py-3 rounded-xl">
+                            Learn More
+                        </button>
+
+                    </div>
                 </div>
-            </div>
 
-            {/* right side */}
-            <div>
-                <img src={heroIcon} alt="" />
-            </div>
+                {/* Right Side */}
+                <div className="w-full md:w-1/2 flex justify-center">
+                    <img
+                        src={heroIcon}
+                        alt="Development stack illustration"
+                        className="w-full max-w-md lg:max-w-lg h-auto"
+                    />
+                </div>
 
-        </div>
+            </div>
+        </section>
     )
 }
+
