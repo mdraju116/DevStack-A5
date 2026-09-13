@@ -1,15 +1,20 @@
 
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import type { TechType } from "../types/techTypes";
 import TechnologyCard from './TechnologyCard';
+import type { Dispatch, SetStateAction } from "react";
+
+type TechnologiesProps = {
+  stack:TechType[];
+  setStack: Dispatch<SetStateAction<TechType[]>>;
+};
 
 
-const Technologies = () => {
+const Technologies = ({ stack,setStack }: TechnologiesProps) => {
 
     const [technologies,setTechnologies]=useState <TechType[]> ([]);
     const [loading,setLoading] = useState (true);
-
-
+    
     useEffect(()=>{
         fetch("/data.json")
             .then((res)=>res.json())
@@ -34,6 +39,8 @@ const Technologies = () => {
                         <TechnologyCard
                             key={technology.id}
                             technology={technology}
+                            stack={stack}
+                            setStack={setStack}
                         />
                         
                     ))
