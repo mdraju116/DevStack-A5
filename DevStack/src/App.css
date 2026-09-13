@@ -1,16 +1,29 @@
+:root {
+  --brand-orange: #f76f21;
+  --brand-pink: #ed4a94;
+  --brand-purple: #7c3aed;
+  --brand-heading-orange: #fa4f2d;
+  --brand-pink-text: #de4ba6;
+
+  --brand-gradient: linear-gradient(
+    to right,
+    var(--brand-orange),
+    var(--brand-pink)
+  );
+}
 
 .brand-gradient {
   background: var(--brand-gradient);
 }
 
-.brand-gradient-text {
-  background: var(--brand-gradient);
-  -webkit-background-clip: text;
+.brand-heading {
+  background: linear-gradient(
+    to right,
+    var(--brand-heading-orange),
+    var(--brand-purple)
+  );
   background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
+  -webkit-text-fill-color: transparent;
 }
-
-.brand-gradient-border {
-  border-image: var(--brand-gradient) 1;
-}
-

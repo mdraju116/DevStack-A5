@@ -33,7 +33,10 @@ export default function Nav() {
                             Sign In
                         </button>
 
-                        <button className="bg-linear-to-r from-[#f76f21] to-[#ed4a94] text-white px-5 py-2 rounded-full whitespace-nowrap">
+                        {/* <button className="bg-linear-to-r from-[#f76f21] to-[#ed4a94] text-white px-5 py-2 rounded-full whitespace-nowrap">
+                            Sign Up
+                        </button> */}
+                        <button className="brand-gradient text-white px-5 py-2 rounded-full whitespace-nowrap">
                             Sign Up
                         </button>
                     </div>
@@ -63,7 +66,10 @@ export default function Nav() {
                             Sign In
                         </button>
 
-                        <button className="bg-linear-to-r from-[#f76f21] to-[#ed4a94] text-white px-3 py-1.5 rounded-full whitespace-nowrap">
+                        {/* <button className="bg-linear-to-r from-[#f76f21] to-[#ed4a94] text-white px-3 py-1.5 rounded-full whitespace-nowrap">
+                            Sign Up
+                        </button> */}
+                        <button className="brand-gradient text-white px-3 py-1.5 rounded-full whitespace-nowrap">
                             Sign Up
                         </button>
                     </div>

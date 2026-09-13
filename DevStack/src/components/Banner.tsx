@@ -12,9 +12,13 @@ export default function Banner() {
 
                     <h1 className="font-bold font-inter text-3xl sm:text-4xl lg:text-5xl leading-tight">
                         Build Your Ideal{" "}
-                        <span className="block bg-linear-to-r from-[#fa4f2d] to-purple-700 bg-clip-text text-transparent">
+                        {/* <span className="block bg-linear-to-r from-[#fa4f2d] to-purple-700 bg-clip-text text-transparent">
+                            Development Stack
+                        </span> */}
+                        <span className="block brand-heading">
                             Development Stack
                         </span>
+
                     </h1>
 
                     <p className="text-[#475569] leading-7 max-w-xl mx-auto md:mx-0">
@@ -25,9 +29,13 @@ export default function Banner() {
 
                     <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center md:justify-start">
 
-                        <button className="bg-linear-to-r from-[#f76f21] to-[#ed4a94] text-white px-6 py-3 rounded-xl">
+                        {/* <button className="bg-linear-to-r from-[#f76f21] to-[#ed4a94] text-white px-6 py-3 rounded-xl">
+                            Explore Technologies
+                        </button> */}
+                        <button className="brand-gradient text-white px-6 py-3 rounded-xl">
                             Explore Technologies
                         </button>
+
 
                         <button className="bg-white text-black border border-gray-200 px-8 sm:px-10 py-3 rounded-xl">
                             Learn More
