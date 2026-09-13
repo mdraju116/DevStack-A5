@@ -22,8 +22,8 @@
     var(--brand-heading-orange),
     var(--brand-purple)
   );
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
